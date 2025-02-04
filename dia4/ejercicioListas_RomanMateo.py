@@ -68,8 +68,12 @@ apellidos = [
     ["Diaz", "Contreras"]
 ]
 
-
-nombreApellido=int(input("Deseas cambiar el nombre o el apellido de un estudiante?(1/2): "))
+print("          ////// MENU //////")
+print("1. Cambiar nombre de un estudiante.")
+print("2. Cambiar los apellidos de un estudiante.")
+print("3. Agregar un estudiante a la lista.")
+print("4. Eliminar un estudiante de la lista.")
+nombreApellido=int(input("Qué deseas hacer?: "))
 
 while True:
     match nombreApellido:
@@ -93,13 +97,39 @@ while True:
             for i in range (len(nombres)):
                 nombreCompleto = " ".join(nombres[i]) + " " + " ".join(apellidos[i])
                 print(f"{i + 1}. {nombreCompleto}")
+        case 3:
+            nuevoNombre = input("Escribe el nombre del estudiante que deseas agregar: ")
+            nombres.append([nuevoNombre])
+            nuevoApellido = input("Escribe los apellidos del usuario que deseas agregar: ")
+            apellidos.append([nuevoApellido])
+            for i in range (len(nombres)):
+                nombreCompleto = " ".join(nombres[i]) + " " + " ".join(apellidos[i])
+                print(f"{i + 1}. {nombreCompleto}")
+        case 4:
+            for i in range (len(nombres)):
+                nombreCompleto = " ".join(nombres[i]) + " " + " ".join(apellidos[i])
+                print(f"{i + 1}. {nombreCompleto}")
+            estudianteBorrar = int(input("Escribe el número del estudiante a borrar: "))
+            nombres.pop(estudianteBorrar-1)
+            apellidos.pop(estudianteBorrar-1)
+            for i in range (len(nombres)):
+                nombreCompleto = " ".join(nombres[i]) + " " + " ".join(apellidos[i])
+                print(f"{i + 1}. {nombreCompleto}")
+
         case _:
             print ("Solo puedes elegir uno de los dos numero anteriores")
+
     salirConfirmacion = int(input("Deseas salir del menu o seguir editando la lista?(1/2): "))
     if salirConfirmacion == 1:
+        print("Vuelve pronto :)")
         break
     elif salirConfirmacion == 2:
-        nombreApellido=int(input("Deseas cambiar el nombre o el apellido de un estudiante?(1/2): "))
+        print("          ////// MENU //////")
+        print("1. Cambiar nombre de un estudiante.")
+        print("2. Cambiar los apellidos de un estudiante.")
+        print("3. Agregar un estudiante a la lista.")
+        print("4. Eliminar un estudiante de la lista.")
+        nombreApellido=int(input("Qué deseas hacer?: "))
     
 
        
