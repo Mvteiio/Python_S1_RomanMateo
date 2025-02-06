@@ -1,3 +1,5 @@
+import json
+
 # Estoy es pero perdido 
 inmueblesDiccionario = {"inmuebles": [
                             {'año': 2000, 'metros': 100, 'habitaciones': 3, 'garaje': True, 'zona': 'A'},
@@ -11,7 +13,7 @@ inmueblesDiccionario = {"inmuebles": [
 def mostrarInmuebles ():
     for i in range (len(inmueblesDiccionario['inmuebles'])):
         print(inmueblesDiccionario['inmuebles'][i])
-
+    return ""
 
 
 print (mostrarInmuebles())

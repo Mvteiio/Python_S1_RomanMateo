@@ -1,0 +1,51 @@
+{
+    "infoLibros": [
+        {
+            "Titulo": "Dexter La Novela",
+            "Genero": "Crimen",
+            "Autor": "Jim Landsay",
+            "Publicacion": 2004
+        },
+        {
+            "Titulo": "1984",
+            "Genero": "Ciencia ficcion, Distopia",
+            "Autor": "George Orwell",
+            "Publicacion": 1949
+        },
+        {
+            "Titulo": "Cien anos de soledad",
+            "Genero": "Realismo magico",
+            "Autor": "Gabriel Garcia Marquez",
+            "Publicacion": 1967
+        },
+        {
+            "Titulo": "Andres es gay",
+            "Genero": "comedia",
+            "Autor": "Camilo",
+            "Publicacion": "2025"
+        },
+        {
+            "Titulo": "Prueba cambio",
+            "Genero": "genero cambio",
+            "Autor": "mateo cambio",
+            "Publicacion": "2024"
+        }
+    ],
+    "infoUsuario": [
+        {
+            "Identificador": 1,
+            "nombreUsuario": "Mateo Roman",
+            "tipoUsuario": "Estudiante"
+        },
+        {
+            "Identificador": 2,
+            "nombreUsuario": "Andres Reyes",
+            "tipoUsuario": "Camper"
+        },
+        {
+            "Identificador": 3,
+            "nombreUsuario": "Sergio Rueda",
+            "tipoUsuario": "Estudiante"
+        }
+    ]
+}
