@@ -17,18 +17,6 @@
             "Genero": "Realismo magico",
             "Autor": "Gabriel Garcia Marquez",
             "Publicacion": 1967
-        },
-        {
-            "Titulo": "Andres es gay",
-            "Genero": "comedia",
-            "Autor": "Camilo",
-            "Publicacion": "2025"
-        },
-        {
-            "Titulo": "Prueba cambio",
-            "Genero": "genero cambio",
-            "Autor": "mateo cambio",
-            "Publicacion": "2024"
         }
     ],
     "infoUsuario": [
