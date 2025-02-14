@@ -1,0 +1,49 @@
+{
+    "inmuebles": [
+        {
+            "numero": 1,
+            "year": 2000,
+            "metros": 100,
+            "habitaciones": 3,
+            "garaje": true,
+            "zona": "A",
+            "precio": 97500.0
+        },
+        {
+            "numero": 2,
+            "year": 2012,
+            "metros": 60,
+            "habitaciones": 2,
+            "garaje": true,
+            "zona": "B",
+            "precio": 110925.0
+        },
+        {
+            "numero": 3,
+            "year": 1980,
+            "metros": 120,
+            "habitaciones": 4,
+            "garaje": false,
+            "zona": "A",
+            "precio": 77000.0
+        },
+        {
+            "numero": 4,
+            "year": 2005,
+            "metros": 75,
+            "habitaciones": 3,
+            "garaje": true,
+            "zona": "B",
+            "precio": 126000.0
+        },
+        {
+            "numero": 5,
+            "year": 2015,
+            "metros": 90,
+            "habitaciones": 2,
+            "garaje": false,
+            "zona": "A",
+            "precio": 90000.0
+        }
+    ]
+}
